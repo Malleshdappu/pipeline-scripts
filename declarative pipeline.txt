@@ -1,26 +1,33 @@
 pipeline {
- agent any {
+ agent any 
   stages {
-   stage("build") {
-    steps {
+   stage ("build")
+    {
+    steps
+     {
      echo "build succes"
      }
     }
-    stage ("deploy") {
-     steps {
+    stage ("deploy")
+    {
+     steps
+     {
       echo "test success"
      }
     }
-    stage ("test") {
-     steps {
+    stage ("test")
+    {
+     steps
+     {
       echo "test success"
      }
     }
-    stage ("release") {
-     steps {
+    stage ("release")
+    {
+     steps
+     {
       echo "release success"
      }
     }
   }
- }
 }
