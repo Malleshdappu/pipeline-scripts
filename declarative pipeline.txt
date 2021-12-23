@@ -9,18 +9,18 @@ pipeline {
     stage ("deploy") {
      steps {
       echo "test success"
-}
-}
+     }
+    }
     stage ("test") {
      steps {
       echo "test success"
-}
-}
+     }
+    }
     stage ("release") {
      steps {
       echo "release success"
-}
-}
+     }
+    }
   }
  }
 }
